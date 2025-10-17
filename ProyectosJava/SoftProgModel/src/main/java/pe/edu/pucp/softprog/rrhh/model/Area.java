@@ -23,6 +23,10 @@ public class Area {
         this.activo=activo;
     }
     
+    public Area(String nombre){
+        this.nombre=nombre;
+    }
+    
     public Area(Area area){
         this.idArea=area.idArea;
         this.nombre=area.nombre;
